@@ -17,6 +17,11 @@ Primary use:
 }
 
 @font-face {
+  font-family: Vazir;
+  src: url('https://lib.arvancloud.com/ar/font/vazir-2.0.0/Vazir.ttf'); 
+}
+
+@font-face {
   font-family: Poppins-Bold;
   src: url('../fonts/Poppins/Poppins-Bold.ttf'); 
 }
@@ -36,7 +41,9 @@ Primary use:
   src: url('../fonts/Lato/Lato-Bold.ttf'); 
 }
 
-
+*{
+	font-family: Vazir;
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ RS PLUGIN ]*/
